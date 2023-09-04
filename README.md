@@ -81,6 +81,9 @@ Los siguientes son los requerimientos no funcionales que guiarán el desarrollo 
 
 Este README proporciona una visión general de la aplicación y sus requerimientos. El equipo de desarrollo se compromete a cumplir con estos requisitos para ofrecer una experiencia positiva a los miembros del gremio de call centers.
 
+## Diseño prpuesto para las interfaces de usuario
+
+![Diseño-app-atacc](https://github.com/Aranthiel/TSWAD2022-ProyectoIntegrador2/blob/main/Imagenes%20README/Dise%C3%B1o-app-atacc.png)
 
 ## Consiuderaciones por situación especial:
 
