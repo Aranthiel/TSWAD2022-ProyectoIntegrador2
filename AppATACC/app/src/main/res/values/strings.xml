@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AppATACC</string>
+    <string name="atacc">ATACC</string>
+    <string name="btn_Ingresar">Ingresar</string>
+    <string name="btn_Registrate">Registrate</string>
+    <string name="link_ayuda">Ayuda</string>
+
+    <!--PANTALLA INGRESAR -->
+    <string name="tituloIngresar">INGRESAR</string>
+    <string name="forgot">Olvidé mi contraseña</string>
+    <string name="registrar">Crear Cuenta</string>
+    <string name="emailUsuario">Email</string>
+    <string name="contrasenia">Contraseña</string>
+
+    <!-- PANTALLA REGISTRO -->
+    <string name="tituloRegistro">REGISTRATE</string>
+    <string name="allReady">Ya tengo cuenta</string>
+
+    <!-- PANTALLA BIENVENIDA -->
+    <string name="tituloBienvenide">BIENVENID@S</string>
+    <string name="noticiasATACC">Noticias ATACC</string>
+    <string name="beneficiosATACC">Cátalogo de beneficios</string>
+    <string name="calculadoraATACC">Calculadora de sueldos</string>
+    <string name="afiliateATACC">Afiliate</string>
+    <string name="credencialesATACC">Administrar Afiliación</string>
+
+    <!-- PANTALLA AFILIACION -->
+    <string name="tituloAfiliate">AFILIATE</string>
+    <string name="dniUsuario">DNI</string>
+    <string name="nacimientoUsuario">Fecha de Naciiento</string>
+    <string name="familiareslUsuario">Familiares a cargo</string>
+    <string name="empresaUsuario">Empresa</string>
+
+    <!-- PANTALLA BENEFICIOS -->
+    <string name="tituloBeneficios">BENEFICIOS</string>
+
+    <!-- PANTALLA CALCULADORA -->
+    <string name="tituloCalculadora">CALCULADORA</string>
+
+    <!-- PANTALLA CREDENCIALES -->
+    <string name="tituloCredenciales">MIS CREDENCIALES</string>
+
+    <!-- PANTALLA AYUDA -->
+    <string name="tituloAyuda">AYUDA</string>
+
+
+</resources>

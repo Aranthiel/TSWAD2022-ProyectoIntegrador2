@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackATACC">#1A1A1B</color>
+    <color name="whiteATACC">#f3f8fc</color>
+    <color name="mainColor">#0093dd</color>
+    <color name="mediumDarkColor">#104686</color>
+    <color name="darkColor">#083075</color>
+    <color name="mediumLigthColor">#4c95ca</color>
+    <color name="ligthColor">#bfe2e6</color>
+    <color name="greyATACC">#9e9ea0</color>
+
+</resources>
