@@ -23,16 +23,28 @@
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="250dp"
         android:layout_height="250dp"
-        app:lottie_imageAssetsFolder="assets"
-        app:lottie_fileName="atacc_help.json"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="atacc_help.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
 
-
-    </com.airbnb.lottie.LottieAnimationView>
+    <Button
+        android:id="@+id/HelpPageButtonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:width="175dp"
+        android:backgroundTint="@color/mainColor"
+        android:text="Volver"
+        android:textColor="@color/whiteATACC"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".AfiliateActivity"
     android:background="@drawable/background_atacc">
+
+    <TextView
+        android:id="@+id/AfiliatePageBtnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/volver"
+        android:textColor="@color/whiteATACC"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/AfiliatePageTextATACC"
         android:layout_width="wrap_content"
@@ -32,5 +46,7 @@
         app:lottie_imageAssetsFolder="assets">
 
     </com.airbnb.lottie.LottieAnimationView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

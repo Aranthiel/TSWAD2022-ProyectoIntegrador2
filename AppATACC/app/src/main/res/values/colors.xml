@@ -8,5 +8,6 @@
     <color name="mediumLigthColor">#4c95ca</color>
     <color name="ligthColor">#bfe2e6</color>
     <color name="greyATACC">#9e9ea0</color>
+    <color name="transparent">#00000000</color>
 
 </resources>

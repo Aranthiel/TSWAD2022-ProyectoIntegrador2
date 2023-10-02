@@ -4,8 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BienvenideActivity"
-    android:background="@drawable/background_atacc">
+    android:background="@drawable/background_atacc"
+    tools:context=".BienvenideActivity">
+
+    <TextView
+        android:id="@+id/BienvenidePageBtnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/volver"
+        android:textColor="@color/whiteATACC"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/BienvenidePageTextATACC"
         android:layout_width="wrap_content"
@@ -15,23 +30,112 @@
         android:textColor="@color/whiteATACC"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="450dp"
-        android:layout_height="450dp"
-        android:layout_marginBottom="4dp"
+    <LinearLayout
+        android:id="@+id/WellcomePageJoinCard"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/tarjetabeneficios"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/WellcomePageBenefitsCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:baselineAligned="false"
+            android:src="@drawable/atacc_logo100w" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Afiliate"
+            android:textAlignment="center"
+            android:textColor="@color/whiteATACC"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WellcomePageBenefitsCard"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/tarjetabeneficios"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/WellcomePageCalculatorCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:baselineAligned="false"
+            android:src="@drawable/atacc_logo100w" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Beneficios"
+            android:textAlignment="center"
+            android:textColor="@color/whiteATACC"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WellcomePageCalculatorCard"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/tarjetabeneficios"
+        android:gravity="center_vertical"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:baselineAligned="false"
+            android:src="@drawable/atacc_logo100w" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Calculadora"
+            android:textAlignment="center"
+            android:textColor="@color/whiteATACC"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BienvenidePageTextATACC"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="atacc_hello.json"
+        app:lottie_fileName="atacc_hello2.json"
         app:lottie_imageAssetsFolder="assets"
         app:lottie_loop="true">
 
     </com.airbnb.lottie.LottieAnimationView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

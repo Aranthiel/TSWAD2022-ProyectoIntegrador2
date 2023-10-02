@@ -42,6 +42,7 @@
 
     <!-- PANTALLA AYUDA -->
     <string name="tituloAyuda">AYUDA</string>
+    <string name="volver"><![CDATA[<]]></string>
 
 
 </resources>
