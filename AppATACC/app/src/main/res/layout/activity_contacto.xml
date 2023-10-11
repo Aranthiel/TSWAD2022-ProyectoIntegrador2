@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AfiliateActivity"
-    android:background="@drawable/background_atacc">
+    android:background="@drawable/background_atacc"
+    tools:context=".BienvenideActivity">
 
     <TextView
-        android:id="@+id/AfiliatePageBtnVolver"
+        android:id="@+id/ContactPageBtnVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -20,47 +20,17 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:id="@+id/AfiliatePageTextATACC"
+        android:id="@+id/ContactPageTextATACC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
-        android:text="@string/tituloAfiliate"
+        android:text="@string/tituloContacto"
         android:textColor="@color/whiteATACC"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/AfiliatePageContainer"
-        android:layout_width="match_parent"
-        android:layout_height="450dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:orientation="vertical">
-
-    </LinearLayout>
-
-    <!--
-    <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true"
-        app:layout_constraintStart_toStartOf="parent"
-        app:lottie_fileName="atacc_unirse.json"
-        app:lottie_imageAssetsFolder="assets">
-
-
-    </com.airbnb.lottie.LottieAnimationView>
-    -->
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

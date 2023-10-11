@@ -12,8 +12,11 @@ public class BienvenideActivity extends AppCompatActivity {
 
     TextView btnVolver;
     LinearLayout cardAfiliate;
+    LinearLayout cardCredenciales;
     LinearLayout cardBeneficios;
     LinearLayout cardCalculadora;
+    LinearLayout cardContacto;
+
 
 
     @Override
@@ -23,9 +26,12 @@ public class BienvenideActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bienvenide);
 
         btnVolver=findViewById(R.id.BienvenidePageBtnVolver);
+
         cardAfiliate=findViewById(R.id.WellcomePageJoinCard);
+        cardCredenciales=findViewById(R.id.WellcomePageCredencialesCard);
         cardBeneficios=findViewById(R.id.WellcomePageBenefitsCard);
         cardCalculadora = findViewById(R.id.WellcomePageCalculatorCard);
+        cardContacto = findViewById(R.id.WellcomePageContactCard);
 
 
         btnVolver.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +49,13 @@ public class BienvenideActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        cardCredenciales.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BienvenideActivity.this, CredencialesActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         cardBeneficios.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +70,14 @@ public class BienvenideActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(BienvenideActivity.this, CalculadoraActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardContacto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BienvenideActivity.this, ContactoActivity.class);
                 startActivity(intent);
             }
         });

@@ -4,6 +4,7 @@
     <string name="btn_Ingresar">Ingresar</string>
     <string name="btn_Registrate">Registrate</string>
     <string name="link_ayuda">Ayuda</string>
+    <string name="volver"><![CDATA[<]]></string>
 
     <!--PANTALLA INGRESAR -->
     <string name="tituloIngresar">INGRESAR</string>
@@ -27,7 +28,7 @@
     <!-- PANTALLA AFILIACION -->
     <string name="tituloAfiliate">AFILIATE</string>
     <string name="dniUsuario">DNI</string>
-    <string name="nacimientoUsuario">Fecha de Naciiento</string>
+    <string name="nacimientoUsuario">Fecha de Nacimiento</string>
     <string name="familiareslUsuario">Familiares a cargo</string>
     <string name="empresaUsuario">Empresa</string>
 
@@ -45,8 +46,10 @@
 
     <!-- PANTALLA AYUDA -->
     <string name="tituloAyuda">AYUDA</string>
-    <string name="volver"><![CDATA[<]]></string>
 
+
+    <!-- PANTALLA CONTACTO -->
+    <string name="tituloContacto">CONTACTO</string>
 
 
 </resources>
