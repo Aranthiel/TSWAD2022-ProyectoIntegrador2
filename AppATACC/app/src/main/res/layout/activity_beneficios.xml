@@ -33,6 +33,392 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:id="@+id/BeneficiosPageScollView"
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        android:layout_marginBottom="75dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/BeneficiosPageCardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="167dp">
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 1"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 2"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 3"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 4"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 5"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="38dp"
+                    android:gravity="center"
+                    android:text="Descripcion"
+                    android:textAlignment="center"
+                    android:textColor="@color/whiteATACC"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard6"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 6"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard7"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/BeneficiosPageCard8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 7"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BeneficiosPageCard8"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/tarjetabeneficios"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:baselineAligned="false"
+                    android:src="@drawable/atacc_logo100w" />
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="Beneficio 8"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:text="Descripcion"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteATACC"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="250dp"
         android:layout_height="250dp"
@@ -46,5 +432,6 @@
         app:lottie_imageAssetsFolder="assets">
 
     </com.airbnb.lottie.LottieAnimationView>
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

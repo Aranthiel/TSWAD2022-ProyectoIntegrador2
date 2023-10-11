@@ -36,6 +36,9 @@
 
     <!-- PANTALLA CALCULADORA -->
     <string name="tituloCalculadora">CALCULADORA</string>
+    <string name="calc_construction">Estamos trabajando para vos. Hacé clic en la calculadora para ir al enlace externo</string>
+    <string name="goToCalc">Estamos trabajando para mejorar la aplicaciòn.</string>
+    <string name="clicToCalc">Hacé clic en la calculadora para ir al sitio externo</string>
 
     <!-- PANTALLA CREDENCIALES -->
     <string name="tituloCredenciales">MIS CREDENCIALES</string>
@@ -43,6 +46,7 @@
     <!-- PANTALLA AYUDA -->
     <string name="tituloAyuda">AYUDA</string>
     <string name="volver"><![CDATA[<]]></string>
+
 
 
 </resources>

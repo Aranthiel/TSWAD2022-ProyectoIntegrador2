@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CalculadoraActivity"
-    android:background="@drawable/background_atacc">
+    android:background="@drawable/background_atacc"
+    tools:context=".CalculadoraActivity">
 
     <TextView
         android:id="@+id/CalculadoraPageBtnVolver"
@@ -31,25 +31,57 @@
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/CalculadoraPageBtnVolver"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--
+
     <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/CalculadoraPageCalcLink"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="130dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:lottie_fileName="calculator.json"
-        app:lottie_imageAssetsFolder="assets">
+        app:layout_constraintTop_toBottomOf="@+id/CalculadoraPageTextATACC"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="atacc_calculator.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true">
 
     </com.airbnb.lottie.LottieAnimationView>
-    -->
 
+    <TextView
+        android:id="@+id/CalculadoraPageWorking"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal"
+        android:text="@string/goToCalc"
+        android:textColor="@color/darkColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CalculadoraPageCalcLink" />
+
+    <TextView
+        android:id="@+id/CalculadoraPageGoTo"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal"
+        android:text="@string/clicToCalc"
+        android:textColor="@color/darkColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CalculadoraPageWorking" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
